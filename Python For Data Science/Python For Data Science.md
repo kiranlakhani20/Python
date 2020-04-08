@@ -1,5 +1,4 @@
 # Python for Data Science Cognitiveclass PY0101EN
-
 # MODULE-1 PYTHON BASICS:
 REVIEW QUESTION 1 
 What is the result of the following operation in Python:
@@ -22,7 +21,6 @@ output-'12'
 REVIEW QUESTION 5 
 Given myvar = 'hello', how would you convert myvar into uppercase?
 output-myvar.upper()
-
 
 # MODULE-2 PYTHON DATA STRUCTURES
 QUESTION 1
@@ -48,9 +46,7 @@ QUESTION 5
 What is an important difference between lists and tuples?
 output-Lists are mutable, tuples are not!
 
-
 # MODULE-3 PYTHON PROGRAMMING FUNDAMENTALS:
-
 QUESTION 1 
 What is the output of the following lines of code:
 x=1
@@ -85,9 +81,7 @@ output-B.sort()
 QUESTION 5 
 what are the keys of the of the following {'a':1,'b':2}
 output-a,b
-
 # MODULE-4 WORKING WITH DATA IN PYTHON
-
 QUESTION 1 
 What do the following lines of code do?
 
@@ -117,9 +111,7 @@ output- Append the file "Example3.txt"
 QUESTION 4 
 What is the result of applying the following method df.head(), to the dataframe df
 output-  prints the first 5 rows of the dataframe
-
 # MODULE-5 WORKING WITH NUMPY ARRAYS
-
 MULTIPLE CHOICE
 1. What is the result of the following lines of code:
 a=np.array([0,1,0,1,0])
@@ -140,7 +132,6 @@ output- array([11, 11, 11, 11, 11])
 
 4. What is the correct code to perform matrix multiplication on the matrix A and B
  output-np.dot(A,B)
-
 # FINAL EXAM
 1)What is the result of the following operation 3+2*2?
 output-7
