@@ -1,6 +1,16 @@
 from requests_oauthlib.oauth2_session import OAuth2Session
 from flask import Flask
 
+from flask import Flask, request, send_from_directory
+
+app = Flask('example')
+
+@app.route('/example')
+def example():
+    my_file = request.args['my_file']
+    return send_file("static/%s" % my_file, as_attachment=True) # Noncompliant
+    
+
 app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = "secretkey"  # Noncompliant
 
