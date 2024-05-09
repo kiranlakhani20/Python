@@ -14,3 +14,12 @@ oauth = OAuth2Session(
 token = oauth.fetch_token(
         'https://api.example.com/o/oauth2/token',
         client_secret='example_Password') # Noncompliant
+
+
+import xml.sax
+
+parser = xml.sax.make_parser()
+myHandler = MyHandler()
+parser.setContentHandler(myHandler)
+parser.setFeature(feature_external_ges, True) # Noncompliant
+parser.parse('xxe.xml')
