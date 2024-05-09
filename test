@@ -1,2 +1,2 @@
 xercesc::XercesDOMParser *DOMparser = new xercesc::XercesDOMParser();
-DOMparser->setCreateEntityReferenceNodes(true);
+DOMparser->setCreateEntityReferenceNodes(false);
