@@ -1,4 +1,8 @@
 from requests_oauthlib.oauth2_session import OAuth2Session
+from flask import Flask
+
+app = Flask(__name__)
+app.config['JWT_SECRET_KEY'] = "secretkey"  # Noncompliant
 
 scope = ['https://www.api.example.com/auth/example.data']
 
